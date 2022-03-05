@@ -1,0 +1,1 @@
+This is a technical documentation page for FreeCodeCamp's challenge.
