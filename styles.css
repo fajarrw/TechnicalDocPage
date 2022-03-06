@@ -23,6 +23,7 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
     text-align: justify;
+    padding: 0rem 1rem;
 }
 
 /* code {
@@ -100,22 +101,27 @@ pre {
         top: 0;
         left: 0;
         border-right: 0rem solid var(--dark-grey);
-        /* height: 100vh; */
+        height: auto;
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 1.5rem;
         box-sizing: border-box;
+        background-color: white;
     }
 
     .main-section {
         margin-left: 0rem;
-        padding: 2rem;
+        padding: 1.5rem;
     }
 
     #credit {
         /* border: 0.2rem solid orange; */
         /* background-color: yellow; */
         /* border-radius: 1rem; */
-        margin: 0rem 2rem;
+        margin: 0rem 1.5rem;
         padding: 1rem;
+    }
+
+    pre {
+        padding: 0rem;
     }
 }
