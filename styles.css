@@ -96,6 +96,10 @@ pre {
 }
 
 @media screen and (max-width: 800px) {
+    pre {
+        padding: 0rem;
+    }
+    
     #navbar {
         position: sticky;
         top: 0;
@@ -106,6 +110,21 @@ pre {
         padding: 1rem 1.5rem;
         box-sizing: border-box;
         background-color: white;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #navbar li {
+        border-bottom: 0.15rem solid var(--dark-grey);
+    }
+
+    .nav-list {
+        border-bottom: 0rem solid var(--dark-grey);
+        /* padding: 0.5rem 0rem; */
     }
 
     .main-section {
@@ -121,7 +140,9 @@ pre {
         padding: 1rem;
     }
 
-    pre {
-        padding: 0rem;
+    :target {
+        padding-top: 9rem;
+        margin-top: -8rem;
+        display: inline-block;
     }
 }
