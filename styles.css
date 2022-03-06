@@ -91,5 +91,31 @@ pre {
     background-color: yellow;
     border-radius: 1rem;
     margin: 2rem 2rem 1rem 20rem;
+    padding: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+    #navbar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        border-right: 0rem solid var(--dark-grey);
+        /* height: 100vh; */
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .main-section {
+        margin-left: 0rem;
+        padding: 2rem;
+    }
+
+    #credit {
+        /* border: 0.2rem solid orange; */
+        /* background-color: yellow; */
+        /* border-radius: 1rem; */
+        margin: 0rem 2rem;
+        padding: 1rem;
+    }
+}
