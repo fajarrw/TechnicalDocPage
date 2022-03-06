@@ -20,7 +20,14 @@ a {
 pre {
     background-color: var(--grey);
     font-family: var(--monospace);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
 }
+
+/* code {
+    display:inline-block;
+} */
 
 #navbar ul {
     list-style-type: none;
