@@ -116,6 +116,7 @@ pre {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     #navbar li {
@@ -125,6 +126,10 @@ pre {
     .nav-list {
         border-bottom: 0rem solid var(--dark-grey);
         /* padding: 0.5rem 0rem; */
+    }
+
+    .nav-link {
+        font-size: 1rem;
     }
 
     .main-section {
@@ -143,6 +148,14 @@ pre {
     :target {
         padding-top: 9rem;
         margin-top: -8rem;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 288px) {
+    :target {
+        padding-top: 11rem;
+        margin-top: -10rem;
         display: inline-block;
     }
 }
